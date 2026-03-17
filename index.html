@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+        <form onsubmit="handleSubmit(event)">
+          <div class="inputW">
+            <label>Full Name</label>
+            <input type="text" id="fullName" />
+        </div>
+          <div class="inputW">
+            <label>Name</label>
+            <input type="text" id="name"/>
+        </div>
+          <div class="inputW">
+            <label>Last Name</label>
+            <input type="text" id="lastName"/>
+        </div>
+         <div class="inputW">
+            <label>Email</label>
+            <input type="email" id="email"/>
+        </div>
+         <div class="inputW">
+            <label>Password</label>
+            <input type="password" id="password"/>
+        </div>
+        <div class="sexWrapper">
+            <div>
+                <label>Male</label>
+                <input type="radio" >
+            </div>
+            <div>
+                <label>Female</label>
+                <input type="radio">
+            </div>
+        </div>
+        <div class="check">
+            <input type="checkbox">
+            <label>ვეთანხმები 
+            </label>
+       </div>
+       <div>
+        <button type="submit">Submit</button>
+    </div>
+        </form>
+
+        <div class="objectBox">
+            <p class="anss">Full Name: <span id="ans1">_____</span></p>
+            <p class="anss">Name: <span id="ans2">_____</span></p>
+            <p class="anss">Last Name: <span id="ans3">_____</span></p>
+            <p class="anss">Email: <span id="ans4">_____</span></p>
+            <p class="anss">Password: <span id="ans5">_____</span></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
